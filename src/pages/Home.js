@@ -36,7 +36,6 @@ export default function Home() {
 
   return (
     <main>
-      {/* قسم الهيرو */}
       <section className="hero" style={{ display: "flex", alignItems: "center", padding: "50px 20px", gap: "40px" }}>
         <div className="hero-text">
           <h1 style={{color: "#1b0c59"}}> Better </h1><h1 style={{color: "#139853ff"}}>Learning Future </h1><h1 style={{color: "#1b0c59"}}> Starts With Edusion</h1>
@@ -66,7 +65,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* كاردات المعلومات ملزقة ببعض */}
       <CardGroup style={{ marginTop: "40px", gap: "0" }}>
         {cards.map((card, index) => (
           <Card key={index}>

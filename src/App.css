@@ -222,7 +222,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #16a34a; /* أخضر */
+  background: #16a34a;
   color: white;
   width: 50px;
   height: 50px;
@@ -233,7 +233,7 @@
   font-weight: bold;
 }
 
-/* Category Box أسفل الصورة */
+
 .course-category {
   background-color: #16a34a;
   color: white;
@@ -258,7 +258,7 @@
   color: #374151;
 }
 .course-rating {
-  color: #facc15; /* أصفر للنجوم */
+  color: #facc15; 
 }
 
 /* Responsive */
@@ -276,7 +276,7 @@
 
 .contact-container {
   display: flex;
-    flex-direction: column; /* عمودي: Info فوق، Form تحت */
+    flex-direction: column; 
   align-items: center;
   gap: 20px;
   padding: 60px 20px;
@@ -284,7 +284,7 @@
 }
 .contact-info {
   display: flex;
-  gap: 20px; /* العناصر جنب بعضهم */
+  gap: 20px; 
   justify-content: center;
 }
 
@@ -304,10 +304,9 @@
   width: 1px;
   background-color: #ccc;
   margin: 0 10px;
-  align-self: stretch; /* يجعل الخط يمتد على طول الحاوية */
+  align-self: stretch; 
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
@@ -339,14 +338,14 @@
 
 .contact-form h2 {
   text-align: center;
-  font-size: 32px; /* عنوان كبير */
+  font-size: 32px; 
   margin-bottom: 20px;
 }
 
 
 
 .form-group {
-  flex: 1; /* يملأ المساحة بالتساوي */
+  flex: 1; 
   display: flex;
   flex-direction: column;
 }
@@ -365,7 +364,7 @@
 }
 
 .send-btn {
-  background-color: #28a745; /* أخضر */
+  background-color: #28a745; 
   color: #fff;
   padding: 12px;
   border: none;
@@ -381,7 +380,7 @@
 
 @media (max-width: 768px) {
   .contact-form {
-    width: 90%; /* يملأ تقريبًا كامل الشاشة على الموبايل */
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
   }

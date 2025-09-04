@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// استيراد الصور
 import course1Img from "../assets/course1.jpg";
 import course2Img from "../assets/course2.jpg";
 import course3Img from "../assets/course3.jpg";
@@ -9,7 +8,6 @@ import course4Img from "../assets/course4.jpg";
 import course5Img from "../assets/course5.jpg";
 import course6Img from "../assets/course6.jpg";
 
-// بيانات الكورسات
 const courses = [
   {
     price: "$265",
@@ -73,7 +71,6 @@ const courses = [
   },
 ];
 
-// دالة عرض النجوم
 const renderStars = (rating) => {
   const fullStars = Math.floor(rating);
   const hasHalf = rating % 1 !== 0;
@@ -86,7 +83,6 @@ const renderStars = (rating) => {
 export default function Courses() {
   return (
     <main>
-      {/* Hero Section */}
       <section className="about-hero">
         <h1 className="about-title">Courses</h1>
         <div className="hero-box">
@@ -96,7 +92,6 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Courses Grid */}
       <div className="courses-grid">
         {courses.map((course, index) => (
           <div className="course-card" key={index}>
@@ -105,7 +100,6 @@ export default function Courses() {
               <div className="course-price">{course.price}</div>
             </div>
 
-            {/* المستطيل الأخضر تحت الصورة */}
             <div className="course-category">{course.category}</div>
 
             <div className="course-details">
