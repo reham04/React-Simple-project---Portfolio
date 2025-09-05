@@ -176,20 +176,20 @@
 
 
 
-/* Hero Section */
+
 .about-hero {
-  background-color: #d1fae5; /* أخضر فاتح */
+  background-color: #d1fae5; 
   padding: 40px 20px;
   text-align: center;
 }
 .about-title {
   font-size: 36px;
   font-weight: bold;
-  color: #047857; /* أخضر غامق */
+  color: #040678; 
 }
 .hero-box .breadcrumb {
   margin-top: 10px;
-  color: #065f46;
+  color: #190656;
 }
 
 /* Courses Grid */

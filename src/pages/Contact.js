@@ -57,7 +57,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Form */}
       <div className="contact-form">
   <h2>Send your message</h2>
   <form onSubmit={handleSubmit}>
@@ -67,7 +66,6 @@ const Contact = () => {
         <input
           type="text"
           name="name"
-          placeholder="Name"
           value={formData.name}
           onChange={handleChange}
           required
@@ -78,7 +76,6 @@ const Contact = () => {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
           value={formData.email}
           onChange={handleChange}
           required
@@ -91,7 +88,6 @@ const Contact = () => {
       <input
         type="text"
         name="subject"
-        placeholder="Subject"
         value={formData.subject}
         onChange={handleChange}
         required
@@ -102,14 +98,13 @@ const Contact = () => {
       <label>Your Message</label>
       <textarea
         name="message"
-        placeholder="Type your message..."
         value={formData.message}
         onChange={handleChange}
         required
       ></textarea>
     </div>
 
-    <button type="submit" className="send-btn">Send your message</button>
+    <button type="submit" className="send-btn">Send message</button>
   </form>
       </div>
     </div>
