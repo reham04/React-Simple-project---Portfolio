@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Final-Project-Front---end-/static/css/main.82c6fd45.css",
-    "main.js": "/Final-Project-Front---end-/static/js/main.b25bd48c.js",
+    "main.css": "/Final-Project-Front---end-/static/css/main.e296d517.css",
+    "main.js": "/Final-Project-Front---end-/static/js/main.e2bd806b.js",
     "static/js/453.96453769.chunk.js": "/Final-Project-Front---end-/static/js/453.96453769.chunk.js",
     "static/media/about1.png": "/Final-Project-Front---end-/static/media/about1.2561eb2f6498cf866523.png",
     "static/media/home-image.png": "/Final-Project-Front---end-/static/media/home-image.30b643974ce8faa3ca1a.png",
@@ -13,12 +13,12 @@
     "static/media/course6.jpg": "/Final-Project-Front---end-/static/media/course6.275654e815babe56455b.jpg",
     "static/media/course1.jpg": "/Final-Project-Front---end-/static/media/course1.8fd7f5f77c171901f07e.jpg",
     "index.html": "/Final-Project-Front---end-/index.html",
-    "main.82c6fd45.css.map": "/Final-Project-Front---end-/static/css/main.82c6fd45.css.map",
-    "main.b25bd48c.js.map": "/Final-Project-Front---end-/static/js/main.b25bd48c.js.map",
+    "main.e296d517.css.map": "/Final-Project-Front---end-/static/css/main.e296d517.css.map",
+    "main.e2bd806b.js.map": "/Final-Project-Front---end-/static/js/main.e2bd806b.js.map",
     "453.96453769.chunk.js.map": "/Final-Project-Front---end-/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82c6fd45.css",
-    "static/js/main.b25bd48c.js"
+    "static/css/main.e296d517.css",
+    "static/js/main.e2bd806b.js"
   ]
 }
